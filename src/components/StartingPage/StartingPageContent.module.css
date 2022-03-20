@@ -1,0 +1,113 @@
+.main {
+background:url(../.././assets/circles.png) 
+0% 0% 
+/ cover no-repeat,
+ linear-gradient(rgb(72, 202, 228) 0%,
+ rgb(173, 232, 244) 50%,
+ rgb(202, 240, 248) 100%)
+ 0% 0% / cover;
+}
+
+.sec1 {
+display: flex;
+justify-content:space-between;
+color: #03045e;
+padding:10.8%;
+font-family: 'Roboto', sans-serif;
+text-decoration: underline;
+font-size: 5rem;
+}
+
+.sec2 {
+background: rgba(255, 255, 255, 0.3);
+text-align: center;
+font-family: 'Marck Script';
+padding:7% 7%
+}
+
+.sec2 h2{
+padding-bottom: 5%;
+color: #03045e;
+font-size: 5rem;
+font-weight: 900;
+}
+
+.sec3 {
+padding:3rem;
+padding-bottom: 6%;
+}
+
+.services {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.link {
+display: flex;
+text-align: center;
+padding:12px;
+
+}
+
+.sec3 a {
+border: 2px;
+border-radius: 10px;
+padding:80px;
+color: white;
+background-color: rgb(0, 119, 182);
+text-decoration: none;
+}
+
+
+.title {
+font-size: 3rem;
+}
+
+
+.icon1 {
+position: absolute;
+right: 260px;
+}
+
+@media all and (max-width:1170px) {
+.sec3 a {
+padding-left: 30px;
+padding-right: 30px;
+}
+}
+
+@media all and (max-width:930px) {
+.sec1 {
+flex-direction: column;
+align-items: center;
+font-size: 5rem;
+}
+    .icon1{
+position: unset;
+}
+}
+
+@media all and (max-width:830px) {
+
+.sec1 {
+padding:25% 25%;
+font-family: 'Roboto', sans-serif;
+font-size: 3rem;
+}
+
+.sec2 {
+padding:16% 15%
+}
+
+.services {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.sec2 h2{
+padding-bottom: 8%;
+}
+}

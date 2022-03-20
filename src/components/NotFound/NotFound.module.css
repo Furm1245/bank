@@ -1,0 +1,11 @@
+.page {
+background:url(../.././assets/circles.png) 
+0% 0% 
+/ cover no-repeat,
+ linear-gradient(rgb(72, 202, 228) 0%,
+ rgb(173, 232, 244) 50%,
+ rgb(202, 240, 248) 100%)
+ 0% 0% / cover; 
+height: 89vh;
+display: flex;
+}

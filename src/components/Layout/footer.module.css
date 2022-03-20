@@ -1,0 +1,23 @@
+.mainC {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-top: .5rem;
+padding-bottom: .5rem;
+background:linear-gradient(45deg, rgb(3, 4, 94) 0%, rgb(2, 62, 138) 33%, rgb(0, 119, 182) 100%);
+color: white;
+}
+
+.copy {
+flex-direction: column;
+text-align: center;
+}
+
+@media all and (max-width:640px) {
+.mainC {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+}
